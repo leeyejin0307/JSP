@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+	*{
+		margin:0; 
+		padding:0;
+		list-style:none;
+		font-family: 'Jeju Gothic', serif;
+	}
+	#wrap{
+		width:100%;
+body{
+	background-color:#eee;
+}
+	}
+	header{
+		width:100%;
+		height:100px;
+		overflow:auto;
+		background-color:#9B59B6;
+		color:#fff;
+	}
+	h1{
+		text-align:center;
+		margin-top:20px;
+		}
+	h2{
+		margin-top:20px;
+	}
+	nav {
+		width:30%;
+		height:30px;
+		margin:0 auto;
+		margin-top:20px;
+	}
+	nav > ul {
+		width:100%;
+		height:30px;
+	}
+	nav > ul > li {
+		width:calc(100%/3);
+		height:30px;
+		float:left;
+		text-align:center;
+	}
+	section{
+		width:100%;
+		height:300px;
+	}
+	article{
+		width:20%;
+		height:100%;
+		margin:0 auto;
+	}
+	input{
+		width:200px;
+		height:20px;
+		border:1px solid #eee;
+		border-radius:5px;
+	}
+	#table-detail{
+		width:300px;
+		height:300px;
+		margin-top:10px;
+	}
+#table-list{
+	width:400px;
+	margin-top:10px;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
